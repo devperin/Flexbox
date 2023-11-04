@@ -1,0 +1,66 @@
+.body{
+    padding-bottom: 500px;
+}
+
+.container {
+    background-color: rgb(83, 244, 121);
+    border: 10px solid green;
+    padding: 30px;
+    max-width: 300px;
+    height: 300px;
+    display: flex;
+    /*Alinhamento Horizontal */
+    justify-content: space-between;
+    /*Alinhamento Vertical */
+    align-items: center;
+    /* flex wrap define se os itens flexiveis são forçado a ficarem na mesma linha 
+    ou se podem ser quebradas em várias outras */
+    flex-wrap: wrap;
+}
+
+.container-item {
+    background-color: aqua;
+    padding: 30px;
+    border: 10px solid blue;
+    max-width: 300px;
+    max-height: 300px;
+    margin-top: 50px;
+    margin-left: 500px;
+    margin-bottom: 20px;
+    
+
+}
+
+.item {
+    background-color: lightgray;
+    border: 2px solid blue;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.box {
+    background-color: white;
+    border: 2px solid black;
+    height: 50px;  
+    flex-basis: 30px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+#item-1 {
+    flex-grow: 2;
+    
+}
+#item-2 {
+    flex-basis: 100px;
+}
+#item-3 {
+    flex-shrink: 2;
+}
